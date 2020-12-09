@@ -15,7 +15,7 @@ This package has been tested with MySQL 5.7+ but others drivers should work as w
 
 ## Features
 
-* Intvert your scope, or really any query constraint.
+* Flip/invert your scope, or really any query constraint.
 * Zero third-party dependencies.
 
 ## Support
