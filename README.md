@@ -59,7 +59,7 @@ Post::whereNot(function ($query) {
 })->get();
 ```
 
-The example above can be shortened by using a string, where the second argument is the name of the scope:
+The example above can be shortened by using a string, which should be the name of the scope:
 ```php
 Post::whereNot('onFrontPage')->get();
 ```
