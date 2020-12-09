@@ -93,9 +93,10 @@ class WhereNot
                 // Create a new Eloquent Query Builder with the given Query Builder and
                 // set the model from the original builder.
                 $query = new Builder($query);
-                $query->setModel($builder->getModel());
+                $query->setModel($model = $builder->getModel());
 
-                $originalTable = $query->getModel()->getTable();
+                $qualifiedKeyName = $model->getQualifiedKeyName();
+                $originalTable = $model->getTable();
 
                 // Instantiate a new model that uses the aliased table.
                 $aliasedTable = WhereNot::getTableAlias($originalTable);
@@ -106,7 +107,7 @@ class WhereNot
                     ->setModel($aliasedModel)
                     ->select(DB::raw(1))
                     ->from($originalTable, $aliasedTable)
-                    ->whereColumn($aliasedModel->getQualifiedKeyName(), 'posts.id')
+                    ->whereColumn($aliasedModel->getQualifiedKeyName(), $qualifiedKeyName)
                     ->limit(1)
                     ->tap(fn ($query) => $callable($query));
             });
