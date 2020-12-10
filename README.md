@@ -89,7 +89,7 @@ Post::whereNot([
 
 ## Usage
 
-Imagine you have a `Post` Eloquent model with a query scope that constraints the query to all posts to should make the front page.
+Imagine you have a `Post` Eloquent model with a query scope that constraints the query to all posts that should make the front page.
 
 ```php
 class Post extends Model
