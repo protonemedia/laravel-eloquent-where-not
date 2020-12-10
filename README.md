@@ -18,6 +18,8 @@ This package has been tested with MySQL 5.7+ but others drivers should work as w
 * Flip/invert your scope, or really any query constraint.
 * Zero third-party dependencies.
 
+Related package: [Laravel Eloquent Scope as Select](https://github.com/protonemedia/laravel-eloquent-scope-as-select)
+
 ## Support
 
 We proudly support the community by developing Laravel packages and giving them away for free. Keeping track of issues and pull requests takes time, but we're happy to help! If this package saves you time or if you're relying on it professionally, please consider [supporting the maintenance and development](https://github.com/sponsors/pascalbaljet).
