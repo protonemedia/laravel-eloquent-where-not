@@ -28,7 +28,7 @@ We proudly support the community by developing Laravel packages and giving them 
 
 ## Blogpost
 
-[...soon!](https://protone.media/blog/stop-duplicating-your-eloquent-query-scopes-and-constraints-re-use-them-as-select-statements-with-a-new-laravel-package).
+If you want to know more about the background of this package, please read the blogpost: [Apply the opposite of your Eloquent scope to the Query Builder with a Laravel package](https://protone.media/blog/apply-the-opposite-of-your-eloquent-scope-to-the-query-builder-with-a-laravel-package).
 
 ## Installation
 
