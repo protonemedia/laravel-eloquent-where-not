@@ -170,4 +170,24 @@ class WhereNotTest extends TestCase
         $this->assertCount(1, $posts);
         $this->assertTrue($posts->contains($postA));
     }
+
+    /** @test */
+    public function it_can_check_for_children_of_the_same_model()
+    {
+        $post = Post::create(['title' => 'bar']);
+
+        $commentParent = $post->comments()->create(['body' => 'ok']);
+        $commentChild  = $post->comments()->create(['body' => 'ok', 'parent_comment_id' => $commentParent->getKey()]);
+
+        $comments = Comment::query()
+            ->whereNot(function ($query) {
+                $query->has('comments');
+            })
+            ->orderBy('id')
+            ->get();
+
+        $this->assertCount(1, $comments);
+        $this->assertFalse($comments->contains($commentParent));
+        $this->assertTrue($comments->contains($commentChild));
+    }
 }
