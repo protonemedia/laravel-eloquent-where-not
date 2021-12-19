@@ -11,7 +11,7 @@
 ## Requirements
 
 * PHP 7.4+
-* Laravel 7.0 and higher
+* Laravel 8.0
 
 This package is tested with GitHub Actions using MySQL 5.7, PostgreSQL 10.8 and SQLite.
 
