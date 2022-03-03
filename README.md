@@ -6,6 +6,10 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/protonemedia/laravel-eloquent-where-not.svg?style=flat-square)](https://packagist.org/packages/protonemedia/laravel-eloquent-where-not)
 [![Buy us a tree](https://img.shields.io/badge/Treeware-%F0%9F%8C%B3-lightgreen)](https://plant.treeware.earth/protonemedia/laravel-eloquent-where-not)
 
+### Included in Laravel 9.2.0! ###
+
+As of Laravel 9.2.0, you may use the native [`whereNot`](https://laravel.com/docs/9.x/queries#where-not-clauses) method. This package will be maintained for some time for Laravel 8 users but will be deprecated eventually.
+
 ### 📺 Want to see this package in action? Join the live stream on December 10 at 13:30 CET: [https://youtu.be/fAY75SLQj3w](https://youtu.be/fAY75SLQj3w)
 
 ## Requirements
