@@ -12,6 +12,16 @@ As of Laravel 9.2.0, you may use the native [`whereNot`](https://laravel.com/doc
 
 ### 📺 Want to see this package in action? Join the live stream on December 10 at 13:30 CET: [https://youtu.be/fAY75SLQj3w](https://youtu.be/fAY75SLQj3w)
 
+## Support this package!
+
+❤️ We proudly support the community by developing Laravel packages and giving them away for free. If this package saves you time or if you're relying on it professionally, please consider [sponsoring the maintenance and development](https://github.com/sponsors/pascalbaljet). Keeping track of issues and pull requests takes time, but we're happy to help!
+
+## Laravel Splade
+
+**Did you hear about Laravel Splade? 🤩**
+
+It's the *magic* of Inertia.js with the *simplicity* of Blade. [Splade](https://github.com/protonemedia/laravel-splade) provides a super easy way to build Single Page Applications using Blade templates. Besides that magic SPA-feeling, it comes with more than ten components to sparkle your app and make it interactive, all without ever leaving Blade.
+
 ## Requirements
 
 * PHP 7.4+
@@ -25,10 +35,6 @@ This package is tested with GitHub Actions using MySQL 5.7, PostgreSQL 10.8 and 
 * Zero third-party dependencies.
 
 Related package: [Laravel Eloquent Scope as Select](https://github.com/protonemedia/laravel-eloquent-scope-as-select)
-
-## Support
-
-We proudly support the community by developing Laravel packages and giving them away for free. Keeping track of issues and pull requests takes time, but we're happy to help! If this package saves you time or if you're relying on it professionally, please consider [supporting the maintenance and development](https://github.com/sponsors/pascalbaljet).
 
 ## Blogpost
 
