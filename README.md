@@ -12,7 +12,7 @@ As of Laravel 9.2.0, you may use the native [`whereNot`](https://laravel.com/doc
 
 ### 📺 Want to see this package in action? Join the live stream on December 10 at 13:30 CET: [https://youtu.be/fAY75SLQj3w](https://youtu.be/fAY75SLQj3w)
 
-## Support this package!
+## Sponsor this package!
 
 ❤️ We proudly support the community by developing Laravel packages and giving them away for free. If this package saves you time or if you're relying on it professionally, please consider [sponsoring the maintenance and development](https://github.com/sponsors/pascalbaljet). Keeping track of issues and pull requests takes time, but we're happy to help!
 
